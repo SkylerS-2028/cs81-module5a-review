@@ -34,3 +34,8 @@ console.log("Total time spent:", totalTime(hobbyLog), "minutes");
 console.log("Unique hobbies:", uniqueHobbies(hobbyLog));
 console.log("Sessions longer than 30 min:", longSessions(hobbyLog, 30));
 console.log("Number of relaxed sessions:", countMood(hobbyLog, "relaxed"));
+
+/* 
+Suggestion: 
+I would reccomend in the first function changing session parameter name to entry to be more consistent with the other functions. 
+*/
